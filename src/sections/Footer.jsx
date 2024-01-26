@@ -1,6 +1,7 @@
 import { copyrightSign } from "../assets/icons";
 import { footerLogo } from "../assets/images";
 import { footerLinks, socialMedia } from "../constants";
+
 const Footer = () => {
   return (
     <footer className="max-container">
@@ -53,7 +54,7 @@ const Footer = () => {
             height={20}
             className="rounded-full m-0"
           />
-          <p>SEXE. All rights reserved.</p>
+          <p>Copyright. All rights reserved.</p>
         </div>
         <p className="font-montserrat cursor-pointer">Terms & Conditions</p>
       </div>
